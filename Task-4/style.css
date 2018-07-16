@@ -1,0 +1,82 @@
+.wapper {
+    width: 940px;
+	margin: auto;
+}
+header {
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    background-color: gray;
+	height: 200px;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 200px;
+    display: block;
+}
+.leftSide, .rightSide {
+    width:20%;
+}
+.News {
+    width: 57%;
+}
+.knopka {
+	display: none;
+	width: 32px;
+	height: 21px;
+	border-radius: 2px;
+	margin: 15px;	
+}
+.knopka2 {
+	display: none;
+	width: 32px;
+	height: 21px;
+	border-radius: 2px;
+	margin: 15px;
+	margin-left: 250px;
+}
+.lan {
+	width: 29px;
+	height: 3px;
+	background: white;
+	margin: 3px auto;
+}
+@media screen and (max-width: 768px) {
+	.wrapper {
+	width: 100%;
+}
+.knopka {
+	display: block;
+}
+.rightSide {
+	display: none;
+}
+.leftSide {
+	width: 25%;
+}
+.News {
+	width: 73%;
+    }
+}
+@media screen and (max-width: 438px){
+    .wrapper {
+        width: 100%;
+    }
+    .leftSide {
+        display: none;
+    }
+    .knopka2 {
+        display: block;
+    }
+    .content{
+        width: 100%;
+    }
+}

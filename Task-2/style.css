@@ -1,0 +1,118 @@
+.wrapper{
+    width: 98%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5vw;
+}
+.advert {
+    background-color: darkgray;
+    width: 15%;
+    min-height: 160px;
+    
+}
+.logo_menu {
+    flex-grow: 0.9;
+}
+.logo {
+    background-color: darkgray;
+    min-height: 120px;  
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu button {
+    background-color: dimgrey;
+    flex-grow: 0.9;
+    padding: 10px;
+    margin: 10px 3px 0px 3px;
+    border: 1px solid black;
+    
+}
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+}
+.navMenu .nav {
+    background-color: dimgrey;
+    flex-grow: 0.2;
+    font-size: 20px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    min-height: 45px;
+}
+.search {
+    background-color: darkgray;
+    display: flex;
+    padding: 12px;
+    min-height: 45px;
+}
+.search input{
+    flex-grow: 0.9;
+    margin: 0px 5px;
+}
+.search span:last-child{
+    padding-top: 25px;
+}
+.spotlight button{
+    background-color: darkgray;   
+    width: 200px;
+    margin-top: 20px;
+    padding: 8px;
+}
+.top_box {
+    display: flex;
+    justify-content: space-between;
+}
+.top_box div {
+    background-color: darkgray;
+    width: 20%;
+    height: 230px;
+    margin-bottom: 10px;
+}
+.middle_box {
+    display: flex;
+    justify-content: space-between;
+}
+.left_box {
+    width: 20%;
+}
+.left_box div{
+    background-color: darkgray;
+    height: 230px;
+     margin-bottom: 10px;
+}
+.big_box {
+    width:47%; 
+    background-color: dimgrey;
+    height: 470px;
+     margin-bottom: 10px;
+}
+.right_box {
+    width: 20%;
+}
+.right_box div{
+    background-color: darkgray;
+    height: 230px;
+    margin-bottom: 10px;
+}
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_box div {
+    background-color: darkgray;
+    width: 20%;
+    height: 230px;
+    margin-bottom: 10px;
+}
