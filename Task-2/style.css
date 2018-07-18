@@ -116,3 +116,6 @@ header {
     height: 230px;
     margin-bottom: 10px;
 }
+.footer_box div:nth-last-child(2){
+    width: 47%;
+}
