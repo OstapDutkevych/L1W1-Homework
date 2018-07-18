@@ -5,17 +5,17 @@
 header {
     background-color: aqua;
     width: 100%;
-    text-align: center;
     height: 50px;
+   
     display: flex;
-    position: relative;
+    justify-content: space-around;
+    align-items: center;
 }
 .title {
     margin-left: 30px;
     font-size: 30px;
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    width: calc(95%);
     
 }
 .flex-container {
@@ -62,7 +62,7 @@ header {
 	width: 100%;
 }
 .knopka {
-	display: block;
+	display:block;
 }
 .rightSide {
 	display: none;
@@ -82,9 +82,13 @@ header {
         display: none;
     }
     .knopka2 {
-        display: block;
+        display:block;
+        position: fixed;
     }
-    .content{
-        width: 100%;
+    .News {
+	width: 100%;
+    }
+    .title {
+        
     }
 }
