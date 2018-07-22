@@ -55,17 +55,17 @@ header {
     border: 1px solid black;
     min-height: 45px;
 }
-.search {
+main form {
     background-color: darkgray;
     display: flex;
     padding: 12px;
     min-height: 45px;
 }
-.search input{
+main form input{
     flex-grow: 0.9;
     margin: 0px 5px;
 }
-.search span:last-child{
+main form label:last-child{
     padding-top: 25px;
 }
 .spotlight button{
